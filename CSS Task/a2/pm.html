@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pm.css">
+    <title>CSS Task Day 1 - Project Management</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Project Management</h2>
+        <div class="proj-man">
+            <form class="info">
+                <div class="gform">
+                    <label for="pname"><strong>Project Name </strong></label>
+                    <input type="text" name="pname" id="pname" placeholder="project name">
+                </div>
+                <br>
+                <div class="gform">
+                    <label for="assign"><strong>Assigned to </strong></label>
+                    <select name="assign" id="assign">
+                        <option value="1">Er Merry Petision</option>
+                    </select>
+                </div>
+                <br>
+                <div class="gform">
+                    <label for="start"><strong>Start Date </strong></label>
+                    <input type="date" name="start" id="start">
+                </div>
+                <br>
+                <div class="gform">
+                    <label for="end"><strong>End Date </strong></label>
+                    <input type="date" name="end" id="end">
+                </div>
+                <br>
+                <div class="gform">
+                    <label for="priority"><strong>Priority </strong></label>
+                    <input type="radio" name="priority" id="priority-high" value="high">
+                    <label for="priority-high" class="select"><strong>High</strong></label>
+                    <input type="radio" name="priority" id="priority-average" value="average">
+                    <label for="priority-average" class="select"><strong>Average</strong></label>
+                    <input type="radio" name="priority" id="priority-low" value="low">
+                    <label for="priority-low" class="select"><strong>Low</strong></label>
+                </div>
+                <br>
+                <div class="gform">
+                    <label for="pdesc"><strong>Description </strong></label>
+                    <textarea name="pdesc" id="pdesc"></textarea>
+                </div>
+                <br>
+                <div class="button">
+                    <input type="submit" value="Submit" class="submit">
+                    <input type="reset" value="Clear" class="clear">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

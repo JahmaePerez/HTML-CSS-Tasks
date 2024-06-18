@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    background-color: rgb(247, 191, 108);
+}
+header{
+    padding: 5rem;
+    background-color: rgb(165, 75, 42);
+    text-align: center;
+}
+header h1{
+    text-transform: uppercase;
+}
+.navi{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
+}
+.navi nav a{
+    text-decoration: none;
+    color: green;
+    display: inline;
+    padding: 1rem;
+}
+.content{
+    text-align: left;
+    background-color: rgb(247, 191, 108);
+}
+.content p{
+    color: rgb(149, 47, 10);
+}
+footer{
+    text-align: left;
+}

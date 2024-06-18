@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: url('wood-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: inherit;
+}
+
+.header {
+    background-color: #90361a;
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.container h2 {
+    margin: 5px;
+    color: white;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.navbar ul {
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar li {
+    border-right: 1px rgb(215, 215, 215) solid;
+    padding: 5px 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.penguin {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+.penguin img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    background-color: #90361a;
+    padding: 1px 2px;
+    margin: 0;
+}
+
+.box {
+    width: 30%;
+    padding: 10px 0px 30px;
+    color: #fff;
+    margin: 0;
+    text-align: justify;
+}
+
+.box h3 {
+    margin-bottom: 0px;
+}
+
+.box button {
+    margin-top: 10px;
+    margin-left: 15%;
+    padding: 5px 10px;
+    background-color: #c0c0c0;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 0 0 0 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.main-content h2 {
+    margin-top: 5px;
+    padding: 0;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.main-content p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.sub-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.left-content {
+    width: 59%;
+}
+
+.right-content {
+    width: 39%;
+    background-color: rgb(60, 39, 39);
+    padding: 0px;
+}
+
+.right-content p {
+    width: 40%;
+    display: flex;
+    margin: 1px 10px;
+}
+
+.right-content p.p2 {
+    margin-bottom: 35px;
+}
+
+.right-content img {
+    display: flex;
+    width: 40%;
+    height: 120px;
+    margin: 5px;
+}
+
+.image-text {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.image-text img {
+    width: 80px;
+    height: 80px;
+}
+
+.image-text p {
+    flex: 1;
+    text-align: justify;
+    color: white;
+}
+
+.footer {
+    background-color: #ffa54f;
+    text-align: center;
+    padding: 10px;
+    color: #000;
+}

@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.container{
+    width: 60%;
+    margin: 30px auto;
+}
+.proj-man{
+    padding: 2px 2px;
+    background-color: rgba(136, 251, 255, 0.804);
+    border: none;
+    padding: 1em;
+}
+.gform label {
+    display: inline-block;
+    width: 130px;
+    vertical-align: middle;
+}
+.gform input, .gform select, .gform textarea{ 
+    width: 60%;
+    margin: 0 0 10px;
+    border-radius: 5px;
+}
+.gform input, .gform select{
+    height: 2.3em;
+}
+.gform textarea{
+    height: 3em;
+    vertical-align: middle;
+}
+.gform input[type="radio"] {
+    display: inline;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.gform label.select{
+    display: inline;
+    width: auto;
+    margin: 0;
+    padding: 0 10px 0 0;
+    vertical-align: middle;
+}
+.button .submit, .button .clear{
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    color: white;
+    margin: 0 10px 5px;
+}
+.button .submit {
+    background-color: #28a745;     
+    margin-left: 70px;     
+}
+.button .clear {
+    background-color: #007bff;
+}
